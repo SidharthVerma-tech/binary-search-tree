@@ -91,6 +91,13 @@ Node* deleteFromBST(Node* root,int val){
         root->data=mini;
         root->right=deleteFromBST(root->right,mini);
     }
+    }
+
+
+
+
+
+
 
 
 
@@ -115,7 +122,7 @@ void takeInput(Node* &root){
 }
 int main(){
     Node* root=NULL;
-    cout<<"Enter data to create BST" << endl;
+    cout<<"Enter data to createwh BST Creating a Binary Search Tree for the good sake please stop!!!" << endl;
     takeInput(root);
     cout<<"Printing the BST"<<endl;
     printTree(root);
@@ -125,5 +132,6 @@ int main(){
     cout<<"Printing the BST"<<endl;
     printTree(root);
     cout<<"Printing the inorder Traversal" <<endl;
+    cout<<"HEy man why i amnot coding please tell me why is coding boring...i mean wtf man!!!"<<endl;
     return 0;
 }
